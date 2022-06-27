@@ -99,8 +99,8 @@ export default function NotificationsArea() {
   }
 
   function showNotification(notif: INotification) {
-    if (!settings.enabled || !notif.playSound) return;
-    notifyAudio.current.play();
+    if (!settings.enabled) return;
+    if (settings.playSound) notifyAudio.current.play();
 
     setNotifications(notifications.filter(note => !note.outdated));
 
