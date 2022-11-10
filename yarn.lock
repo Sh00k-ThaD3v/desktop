@@ -2493,10 +2493,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^14.6.2":
-  version: 14.17.15
-  resolution: "@types/node@npm:14.17.15"
-  checksum: e0840304db236027e822ef1e149de433afd20d2553699cdc2ce651d107a77646c6eaaeaec8c348eabdc05169440dbc2cf069791bef65ca4b6e5ee4412e69c898
+"@types/node@npm:^16.11.26":
+  version: 16.18.3
+  resolution: "@types/node@npm:16.18.3"
+  checksum: 6b8ba2ea5d842f7986e366cb9184c54d273d492784dc62e08fd5afeae938d9b61aec6e4222d2541cd18f9b1412ba361bbcb3f4204fb003608af80a2a6af959f9
   languageName: node
   linkType: hard
 
@@ -6623,16 +6623,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron@npm:17.4.1":
-  version: 17.4.1
-  resolution: "electron@npm:17.4.1"
+"electron@npm:18.3.7":
+  version: 18.3.7
+  resolution: "electron@npm:18.3.7"
   dependencies:
     "@electron/get": ^1.13.0
-    "@types/node": ^14.6.2
+    "@types/node": ^16.11.26
     extract-zip: ^1.0.3
   bin:
     electron: cli.js
-  checksum: 7f70989d52620beaeb4f83a5608f68e9381714718950e1cf5e0581e8ec1325ba0d15227228c0a25a4e68c466a1338d74f05ca47edd8909df708a1bd17db93eec
+  checksum: 365a82082926ccf062e9dcc7d997e43988c9d2a1b1bf9ea1e5c3f00d0ec05c9e45d3382cbfa51673a50e0f0127cabc3c4eb5ced0bd797ea2eebe36f1a27e0ecb
   languageName: node
   linkType: hard
 
@@ -14552,7 +14552,7 @@ __metadata:
     css-element-queries: 1.2.3
     css-loader: 2.1.1
     dotenv: 8.2.0
-    electron: 17.4.1
+    electron: 18.3.7
     electron-builder: 22.14.5
     electron-devtools-installer: 3.1.1
     electron-notarize: 1.0.0
